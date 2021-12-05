@@ -1,1 +1,0 @@
-# bmsohwinc.github.io

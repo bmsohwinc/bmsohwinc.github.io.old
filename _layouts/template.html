@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Sourabha here!</h1>
+      <h2 class="project-tagline"></h2>
+      {% for page in site.pages %}
+        <a href= {{ page.filename }} class="btn">{{ page.title }}</a>
+      {% endfor %}
+      <a href="https://github.com/bmsohwinc/bmsohwinc.github.io" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+    </section>
+  </body>
+</html>
