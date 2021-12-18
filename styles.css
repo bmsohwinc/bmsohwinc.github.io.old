@@ -3,3 +3,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 5px;
 }
+
+.my-content {
+    padding: 50px
+}
