@@ -19,7 +19,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Sourabha Bharadwaj</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,15 +27,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="./dump.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Papers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Dropdown
+              Projects
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -47,32 +59,90 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="./dump.html">Dump</a>
           </li>
         </ul>
-        <form class="d-flex">
+        <div class="flex-d">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </div>
       </div>
     </div>
   </nav>
-  <div class="my-content">
-    <h1>🚧 🚧 🚧 WIP 🚧 🚧 🚧</h1>
-    <h3>The raw probability of you landing on this site is 1 out of 1.7 billion.</h3>
-    <h2>The conditional probability could be higher...</h2>
-    <div>Checkout:
-      <ul>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/sourabha-bharadwaj-b-m-561716161/" target="_blank"
-            rel="noopener noreferrer"><img width="20px"
-              src="./assets/5296501_linkedin_network_linkedin logo_icon.png" /></a></li>
-      </ul>
+  <div class="time-my-content">
+    <div id="time-main-dock">
+      <div id="time-short-bio">
+          Hello! I am Sourabha. I am a Software Engineer at <a href="https://www.deshawindia.com/">D. E. Shaw India</a>, 
+          developing full stack applications that provide insights on the Human Capital data.
+          I did my B. Tech (Honours) in Computer Science and Engineering from <a href="https://www.iitbbs.ac.in/">IIT Bhubaneswar</a>. 
+          <br/> <br/>
+          During my undergraduate, I was closely working under <a href="https://www.iitbbs.ac.in/profile.php/sudipta/">Dr. Sudipta Saha</a> on multiple projects spun 
+          across multiple areas such as WSN, Computer Vision, X11 Window systems, Robotics and Image Processing.
+          I was also associated with his research group <a href="https://sites.google.com/iitbbs.ac.in/dssrg">Decentralized and Smart Systems Research Group (DSSRG)</a>
+          where I contributed to developing and testing energy efficient synchronous communication based protocols. We recently also published
+          a <a href="https://arxiv.org/abs/2112.00273">paper on robotics</a> titled <i>'Concurrent Transmission for Multi-Robot Coordination'</i> 
+          which has been accepted at the <a href="https://ccnc2022.ieee-ccnc.org/workshop/robocom22">IEEE CCNC 2022 RoboCom Workshop</a>.
+          <br/><br/>
+          In my spare time, I spend a good amount of time in the garden. I strongly believe that plants can be good friends :)
+          I also love cooking and sketching.
+          <br/>
+          Biology also interests me, and sometimes read articles on different fields -- mostly on behaviour and intelligence
+          of insects (Of course, our best friend, Drosophilla!).
+      </div>
+      <hr/>
+      <div>
+        <h2>Publications</h2>
+        <div id="time-tray-publications">
+          <div class="time-pubs-item">
+            <h4>Concurrent Transmission for Multi-Robot Coordination - <a href="https://arxiv.org/abs/2112.00273">arXiv</a></h4>
+            <a href="https://ccnc2022.ieee-ccnc.org/workshop/robocom22">IEEE CCNC 2022 RoboCom Workshop</a>
+            <hr/>
+            <h6>Abstract</h6>
+            We propose a replacement to the existing asynchronous communication protocol in swarm robotic systems with the concurrent communication protocol
+            that is more reliable, energy efficient and fast. To solve the portability issue of concurrent protocol hardware,
+            we propose a split-architecure, dividing the robotic architecture into independent communication and computation units, that
+            interact through a simple serial line protocol. Read more on the <a href="https://sites.google.com/iitbbs.ac.in/dssrg/concurrent-transmission-for-multi-robot-coordination">DSSRG site</a>.
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div>
+        <h2>Career</h2>
+        <div id="time-tray-career">
+          <div class="time-career-item">
+            <h4>D. E. Shaw India</h4>
+            <p>Member Technical</p>
+            <h6>(June 2021 - Present)</h6>
+          </div>
+        </div>
+      </div>
+      <hr/>
+    </div>
+    <div id="time-side-bar">
+      <div id="time-profile-pic">
+        <img src="./assets/brahma-kamala.jpeg" width="200px" />
+      </div>
+      <br />
+      <div id="time-activities">
+        <div id="time-contact">
+          <h2>Contact</h2>
+          <p><a href="mailto:bmsb235@gmail.com">Email</a></p>
+          <p><a href="https://www.linkedin.com/in/sourabha-bharadwaj-b-m-561716161/">LinkedIn</a></p>
+          <p><a href="https://github.com/bmsohwinc">Github</a></p>
+        </div>
+        <hr/>
+        <div id="time-coauthors">
+          <h2>Coauthors</h2>
+          <p><a href="https://www.iitbbs.ac.in/profile.php/sudipta/">Sudipta Saha</a></p>
+          <p><a href="https://madhavtummala.github.io/">Madhav Thummala</a></p>
+          <p><a href="https://in.linkedin.com/in/gonnabathula-karunakar-787336152">Karunakar Gonnabathula</a></p>
+          <p><a href="http://chayansarkar.com/">Chayan Sarkar</a></p>
+          <p><a href="https://www.wur.nl/en/Persons/Rekha-R-Rekha-Raja-PhD.htm">Rekha Raj</a></p>
+        </div>
+      </div>
     </div>
   </div>
   <hr />
-  <div>
-    Footer
-  </div>
+  <div>PS: This profile layout was greatly inspired by that of <a href="https://thomasahle.com/">Thomas Ahle</a></div>
 
   <script src="" async defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

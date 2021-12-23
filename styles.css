@@ -1,9 +1,63 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+a {
+    color: #07a;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
 }
 
-.my-content {
-    padding: 50px
+.time-my-content {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+#time-main-dock {
+    margin-right: 20px;
+    flex: 500px
+}
+
+#time-short-bio {
+    margin-bottom: 30px;
+}
+
+#time-tray-publications {
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.time-pubs-item {
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#time-side-bar {
+
+}
+
+#time-profile-pic {
+
+}
+
+#time-activities {
+
+}
+
