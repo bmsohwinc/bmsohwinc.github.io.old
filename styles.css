@@ -36,9 +36,13 @@ table, th, td {
 
 #time-tray-publications {
     max-height: 500px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+#time-tray-publications:hover {
+    overflow-y: scroll;
 }
 
 .time-pubs-item {
@@ -46,7 +50,35 @@ table, th, td {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 10px;
+    margin: 10px auto;
+}
+
+#time-tray-career {
     margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.time-career-item {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.time-career-item-left {
+    width: 40%;
+}
+
+.time-career-item-right {
+    /* margin-left: 10px; */
+    margin-top: 5px;
+    width: 60%;
+}
+
+.time-career-item-hr {
+    width: 90%;
+    margin: 20px auto;
 }
 
 #time-side-bar {
@@ -61,3 +93,12 @@ table, th, td {
 
 }
 
+#ps-note {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* some general util classes */
+.ra1 {
+    text-align: right;
+}
